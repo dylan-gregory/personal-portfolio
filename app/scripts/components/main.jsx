@@ -23,14 +23,25 @@ class MainContainer extends React.Component {
           </div>
 
           <div className="row proj-title">
-            <div className="col m3">
-              <h3>Here are a few things I'm working on</h3>
-            </div>
+
+              Here are a few things I'm working on
 
           </div>
 
           <div className="row proj-block">
-            <div className="col m9 offset-m3">
+            <div className="col m4 offset-m2">
+
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="activator Moxy-pic" src="images/Moxy-screen-1.png" />
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className="col m4">
 
               <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
@@ -42,10 +53,10 @@ class MainContainer extends React.Component {
 
                 </div>
                 <div className="card-reveal">
-                  <p>Stuff n things</p>
+                    <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
               </div>
-
             </div>
           </div>
 
@@ -66,6 +77,15 @@ class MainContainer extends React.Component {
     )
   }
 }
+
+// <div className="card-content">
+//   <div className="card-title center activator">Moxy: a multi-user interface<i className="material-icons right">more_vert</i></div>
+//
+// </div>
+// <div className="card-reveal">
+//     <span className="card-title center grey-text text-darken-4">Moxy<i className="material-icons right">close</i></span>
+//     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+// </div>
 
 
 

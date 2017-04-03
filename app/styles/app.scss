@@ -80,6 +80,43 @@ body{
   color: white;
 }
 
-// .Moxy-pic{
-//   margin-top: -70px;
-// }
+.proj-title{
+  background-color: #FFFAE2;
+  margin-top: 0;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.proj-block{
+  background-color: #FFFAE2;
+  padding-bottom: 35px;
+}
+
+.Moxy-pic{
+  margin-top: -30px;
+}
+
+.card::before{
+  display: none;
+  transition: .4s;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-timing-function: ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  transition-property: opacity;
+  transition-duration: 0.35s;
+
+}
+
+.card:hover::before{
+  transition-duration: .5s;
+  opacity: .9;
+  // background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
