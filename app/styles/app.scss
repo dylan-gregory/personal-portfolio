@@ -11,20 +11,36 @@ img {
   max-width: 100%;
 }
 
-.parallax{
-  // padding-right: 60px;
-  // background-color: #806C47;
 
-  img{
-    min-width: 0;
-    max-width: 100%;
-    max-height: 100%;
-  }
+////////
+/// Colors
+///////
+// Cream #FFFAE2
+
+.head{
+
+  background: url('../images/desert-hills.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
 }
 
-// .header-logo{
-//   max-height: 100%;
-//   max-width: 100%;
-//   margin: 0 40px 0 40px;
-//
+.name{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Bungee';
+  letter-spacing: 1.3px;
+  color: #FFFAE2;
+  margin-top: 0;
+}
+// body{
+//   background-color: #FFFAE2;
 // }
+
+.logo{
+  margin-top: 50px;
+  margin-bottom: -30px;
+}

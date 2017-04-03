@@ -10,34 +10,29 @@ class MainContainer extends React.Component {
   render(){
     return (
       <div>
-        <div className="row">
-          <div className="col m3">
-            <h2>This is where my sticky nav will go...maybe?</h2>
+        <div className="row head">
+          <div className="col m4 offset-m4">
+
+            <img className="logo" src="images/Gold-no-bg.png" />
+            <h3 className="name">Dylan Gregory</h3>
+            <h5>Front-End Web Developer</h5>
+
           </div>
 
-          <div className="col m9">
+          </div>
 
-            <div className="parallax-container">
-              <div className="parallax" ><img className="header-logo" src="images/logo-red-png.png" /></div>
-            </div>
 
-            
             <div className="row container">
               <div className="card">
                 <div className="card-content">
                   hey cool stuff and things
                 </div>
               </div>
-              <h1>big words to make the paralax work?</h1>
-              <h1>how about this?</h1>
             </div>
-
-
-          </div>
 
         </div>
 
-      </div>
+
     )
   }
 }
