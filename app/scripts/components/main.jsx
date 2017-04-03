@@ -1,6 +1,7 @@
 var React = require('react');
 var $ = window.$ = window.jQuery = require('jquery');
 
+require('materialize-sass-origin/js/bin/materialize.js');
 require('materialize-sass-origin/js/parallax.js');
 
 class MainContainer extends React.Component {
@@ -21,13 +22,40 @@ class MainContainer extends React.Component {
 
           </div>
 
+          <div className="row proj-title">
+            <div className="col m3">
+              <h3>Here are a few things I'm working on</h3>
+            </div>
 
-            <div className="row">
-              <div className="col m4 work-bar">
-                <img src="images/me-by-darious.jpg" />
+          </div>
+
+          <div className="row proj-block">
+            <div className="col m9 offset-m3">
+
+              <div className="card">
+                <div className="card-image waves-effect waves-block waves-light">
+                  <img className="activator Moxy-pic" src="images/Moxy-screen-1.png" />
+
+                </div>
+                <div className="card-content">
+                  <div className="card-title">Moxy<i className="material-icons right">more_vert</i></div>
+
+                </div>
+                <div className="card-reveal">
+                  <p>Stuff n things</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+            <div className="row me-block">
+              <div className="col m4">
+                <img className="pic-me" src="images/me-by-darious.jpg" />
               </div>
               <div className="col m8">
-                <p className="about-me">{"Hello, friends! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold - I believe that the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. In my free time, I'm a musician, songwriter, and lover of all things caffeinated and brewed"}</p>
+                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold - I believe that the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. In my free time, I'm a musician, songwriter, and lover of all things caffeinated and brewed"}</p>
               </div>
 
             </div>
