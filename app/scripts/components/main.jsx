@@ -15,19 +15,21 @@ class MainContainer extends React.Component {
 
             <img className="logo" src="images/Gold-no-bg.png" />
             <h3 className="name">Dylan Gregory</h3>
-            <h5>Front-End Web Developer</h5>
+            <h5 className="title">Front-End Web Developer</h5>
 
           </div>
 
           </div>
 
 
-            <div className="row container">
-              <div className="card">
-                <div className="card-content">
-                  hey cool stuff and things
-                </div>
+            <div className="row">
+              <div className="col m4 work-bar">
+                <img src="images/me-by-darious.jpg" />
               </div>
+              <div className="col m8">
+                <p className="about-me">{"Hello, friends! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold - I believe that the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. In my free time, I'm a musician, songwriter, and lover of all things caffeinated and brewed"}</p>
+              </div>
+
             </div>
 
         </div>
