@@ -18,7 +18,7 @@ class MainContainer extends React.Component {
 
             React.createElement("img", {className: "logo", src: "images/Gold-no-bg.png"}), 
             React.createElement("h3", {className: "name"}, "Dylan Gregory"), 
-            React.createElement("h5", {className: "title"}, "Front-End Web Developer")
+            React.createElement("h5", {className: "my-title"}, "Front-End Web Developer")
 
           )
 
@@ -34,7 +34,18 @@ class MainContainer extends React.Component {
             React.createElement("div", {className: "container"}, 
               React.createElement("div", {className: "col l4 m6 s12"}, 
 
-                React.createElement("div", {className: "card moxy-card"}
+                React.createElement("div", {className: "card moxy-card"}, 
+                  React.createElement("div", {className: "box"}, 
+
+                      React.createElement("div", {className: "overbox"}, 
+
+                        React.createElement("div", {className: "title overtext"}, "Moxy"), 
+
+                        React.createElement("div", {className: "tagline overtext"}, "Health coach interface")
+
+                      )
+
+                  )
 
                 )
 
@@ -42,17 +53,45 @@ class MainContainer extends React.Component {
 
               React.createElement("div", {className: "col l4 m6 s12"}, 
 
-                React.createElement("div", {className: "card majestic-card"}
+                React.createElement("div", {className: "card majestic-card"}, 
+
+                  React.createElement("div", {className: "box"}, 
+
+
+                      React.createElement("div", {className: "overbox"}, 
+
+                        React.createElement("div", {className: "title overtext"}, "Thai"), 
+
+                        React.createElement("div", {className: "tagline overtext"}, "Mobile ordering web-store")
+
+                      )
+
+                  )
 
                 )
               ), 
 
               React.createElement("div", {className: "col l4 m6 s12"}, 
 
-                React.createElement("div", {className: "card github-card"}
+                React.createElement("div", {className: "card github-card"}, 
+
+                  React.createElement("div", {className: "box"}, 
+
+
+                      React.createElement("div", {className: "overbox"}, 
+
+                        React.createElement("div", {className: "title overtext"}, "GitHub"), 
+
+                        React.createElement("div", {className: "tagline overtext"}, "Working with GitHub's API")
+
+                      )
+
+                  )
 
                 )
               )
+
+
 
             )
           ), 

@@ -8598,7 +8598,7 @@ body {
   margin-top: 100px;
   margin-bottom: -30px; }
 
-.title {
+.my-title {
   color: white;
   margin-bottom: 235px; }
 
@@ -8640,6 +8640,21 @@ body {
   background-position-y: -35px;
   background-position-x: -58px; }
 
+.moxy-cap {
+  visibility: hidden;
+  text-align: center;
+  position: absolute;
+  top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-size: .85em;
+  color: #fff;
+  z-index: 2;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+
 .majestic-card {
   background-image: url("../images/majestic-thai.png");
   background-size: cover;
@@ -8677,5 +8692,70 @@ body {
   color: white;
   -webkit-transition: .4s ease;
   transition: .4s ease; }
+
+.box {
+  cursor: pointer;
+  height: 276px;
+  position: relative;
+  overflow: hidden; }
+
+.box img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
+
+.box .overbox {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 360px;
+  height: 276px;
+  padding-top: 160px;
+  padding-left: 40px; }
+
+.box:hover .overbox {
+  opacity: 1; }
+
+.box .overtext {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px); }
+
+.box .title {
+  font-size: 2.5em;
+  font-family: 'Bungee';
+  opacity: 0;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s; }
+
+.box:hover .title,
+.box:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px); }
+
+.box .tagline {
+  font-size: 1em;
+  opacity: 0;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s; }
+
+.box:hover .tagline,
+.box:focus .tagline {
+  opacity: 1;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px); }
 
 /*# sourceMappingURL=app.css.map */
