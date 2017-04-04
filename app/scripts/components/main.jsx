@@ -16,7 +16,7 @@ class MainContainer extends React.Component {
 
             <img className="logo" src="images/Gold-no-bg.png" />
             <h3 className="name">Dylan Gregory</h3>
-            <h5 className="title">Front-End Web Developer</h5>
+            <h5 className="my-title">Front-End Web Developer</h5>
 
           </div>
 
@@ -33,6 +33,17 @@ class MainContainer extends React.Component {
               <div className="col l4 m6 s12">
 
                 <div className="card moxy-card">
+                  <div className="box">
+
+                      <div className="overbox">
+
+                        <div className="title overtext">Moxy</div>
+
+                        <div className="tagline overtext">Health coach interface</div>
+
+                      </div>
+
+                  </div>
 
                 </div>
 
@@ -42,6 +53,19 @@ class MainContainer extends React.Component {
 
                 <div className="card majestic-card">
 
+                  <div className="box">
+
+
+                      <div className="overbox">
+
+                        <div className="title overtext">Thai</div>
+
+                        <div className="tagline overtext">Mobile ordering web-store</div>
+
+                      </div>
+
+                  </div>
+
                 </div>
               </div>
 
@@ -49,8 +73,23 @@ class MainContainer extends React.Component {
 
                 <div className="card github-card">
 
+                  <div className="box">
+
+
+                      <div className="overbox">
+
+                        <div className="title overtext">GitHub</div>
+
+                        <div className="tagline overtext">Working with GitHub's API</div>
+
+                      </div>
+
+                  </div>
+
                 </div>
               </div>
+
+
 
             </div>
           </div>
