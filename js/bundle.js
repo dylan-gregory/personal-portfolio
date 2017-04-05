@@ -105,6 +105,24 @@ class MainContainer extends React.Component {
                 React.createElement("p", {className: "about-me"}, "Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold - I believe that the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. In my free time, I'm a musician, songwriter, and lover of all things caffeinated and brewed")
               )
 
+            ), 
+
+            React.createElement("div", {className: "row contact-block"}, 
+              React.createElement("h3", {className: "contact-head"}, "Contact me"), 
+              React.createElement("div", {className: "container"}, 
+
+                React.createElement("div", {className: "col m6"}, 
+                  React.createElement("ul", null, 
+                    React.createElement("li", null, React.createElement("a", {href: "mailto:jdylangregory@gmail.com"}, React.createElement("i", {className: "material-icons prefix"}, "mail_outline"), "jdylangregory@gmail.com")), 
+                    React.createElement("li", null, React.createElement("a", {href: "https://github.com/dylan-gregory"}, React.createElement("i", {className: "fa fa-github", "aria-hidden": "true"}), "github.com/dylan-gregory")), 
+                    React.createElement("li", null, React.createElement("a", {href: "https://www.linkedin.com/in/dylan-gregory-66a551138/"}, React.createElement("i", {className: "fa fa-linkedin-square", "aria-hidden": "true"}), "LinkedIn Profile")), 
+                    React.createElement("li", null, React.createElement("a", {href: "https://www.instagram.com/dylangreg"}, React.createElement("i", {className: "fa fa-instagram", "aria-hidden": "true"}), " Instagram"))
+                  )
+
+                )
+              )
+
+
             )
 
         )

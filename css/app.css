@@ -8758,4 +8758,32 @@ body {
   transform: translateX(0px);
   -webkit-transform: translateX(0px); }
 
+.contact-block {
+  background-color: #FFFAE2;
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 40px; }
+  .contact-block a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle; }
+  .contact-block a:hover i {
+    color: red;
+    -webkit-transition: .3s;
+    transition: .3s; }
+  .contact-block i {
+    vertical-align: middle;
+    font-size: 35px;
+    margin-right: 15px; }
+  .contact-block li {
+    vertical-align: middle;
+    margin-bottom: 20px; }
+
+.contact-head {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  padding-left: 110px;
+  padding-top: 40px; }
+
 /*# sourceMappingURL=app.css.map */
