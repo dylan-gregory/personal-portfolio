@@ -106,24 +106,21 @@ class MainContainer extends React.Component {
             </div>
 
             <div className="row contact-block">
+              <h3 className="contact-head">Contact me</h3>
               <div className="container">
-                <div className="col m12">
-                  <h3>Contact me</h3>
-                </div>
 
-                <div className="col m3">
-                  <a><i className="material-icons prefix">mail_outline</i>jdylangregory@gmail.com</a>
-                </div>
-                <div className="col m3">
-                  <a><i className="fa fa-github" aria-hidden="true"></i>github.com/dylan-gregory</a>
-                </div>
-                <div className="col m3">
-                  <a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn Profile</a>
-                </div>
-                <div className="col m3">
-                  <a><i className="fa fa-instagram" aria-hidden="true"></i> Maybe insta? or Twitter</a>
+                <div className="col m6">
+                  <ul>
+                    <li><a href="mailto:jdylangregory@gmail.com"><i className="material-icons prefix">mail_outline</i>jdylangregory@gmail.com</a></li>
+                    <li><a href="https://github.com/dylan-gregory"><i className="fa fa-github" aria-hidden="true"></i>github.com/dylan-gregory</a></li>
+                    <li><a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn Profile</a></li>
+                    <li><a href="https://www.instagram.com/dylangreg"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                  </ul>
+
                 </div>
               </div>
+
+
             </div>
 
         </div>
