@@ -32,61 +32,70 @@ class MainContainer extends React.Component {
             <div className="container">
               <div className="col l4 m6 s12">
 
-                <div className="card moxy-card">
-                  <div className="box">
+                <a href="https://dylan-gregory.github.io/tiy-final-project/">
+                  <div className="card moxy-card">
+                    <div className="box">
 
-                      <div className="overbox">
+                        <div className="overbox">
 
-                        <div className="title overtext">Moxy</div>
+                          <div className="title overtext">Moxy</div>
 
-                        <div className="tagline overtext">Health coach interface</div>
+                          <div className="tagline overtext">Health coach interface</div>
 
-                      </div>
+                        </div>
+
+                    </div>
 
                   </div>
+                </a>
 
-                </div>
 
               </div>
 
               <div className="col l4 m6 s12">
 
-                <div className="card majestic-card">
+                <a href="https://dylan-gregory.github.io/7.4-majestic-thai/">
+                  <div className="card majestic-card">
 
-                  <div className="box">
+                    <div className="box">
 
 
-                      <div className="overbox">
+                        <div className="overbox">
 
-                        <div className="title overtext">Thai</div>
+                          <div className="title overtext">Thai</div>
 
-                        <div className="tagline overtext">Mobile ordering web-store</div>
+                          <div className="tagline overtext">Mobile ordering web-store</div>
 
-                      </div>
+                        </div>
+
+                    </div>
 
                   </div>
+                </a>
 
-                </div>
               </div>
 
               <div className="col l4 m6 s12">
 
-                <div className="card github-card">
+                <a href="https://dylan-gregory.github.io/4.4-github-profile/">
+                  <div className="card github-card">
 
-                  <div className="box">
+                    <div className="box">
 
 
-                      <div className="overbox">
+                        <div className="overbox">
 
-                        <div className="title overtext">GitHub</div>
+                          <div className="title overtext">GitHub</div>
 
-                        <div className="tagline overtext">Working with GitHub's API</div>
+                          <div className="tagline overtext">Working with GitHub's API</div>
 
-                      </div>
+                        </div>
+
+                    </div>
 
                   </div>
-
-                </div>
+                </a>
+                
               </div>
 
 
