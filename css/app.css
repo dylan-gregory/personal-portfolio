@@ -8768,7 +8768,7 @@ body {
     color: black;
     vertical-align: middle; }
   .contact-block a:hover i {
-    color: red;
+    color: #C1292E;
     -webkit-transition: .3s;
     transition: .3s; }
   .contact-block i {

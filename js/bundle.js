@@ -34,61 +34,70 @@ class MainContainer extends React.Component {
             React.createElement("div", {className: "container"}, 
               React.createElement("div", {className: "col l4 m6 s12"}, 
 
-                React.createElement("div", {className: "card moxy-card"}, 
-                  React.createElement("div", {className: "box"}, 
+                React.createElement("a", {href: "https://dylan-gregory.github.io/tiy-final-project/"}, 
+                  React.createElement("div", {className: "card moxy-card"}, 
+                    React.createElement("div", {className: "box"}, 
 
-                      React.createElement("div", {className: "overbox"}, 
+                        React.createElement("div", {className: "overbox"}, 
 
-                        React.createElement("div", {className: "title overtext"}, "Moxy"), 
+                          React.createElement("div", {className: "title overtext"}, "Moxy"), 
 
-                        React.createElement("div", {className: "tagline overtext"}, "Health coach interface")
+                          React.createElement("div", {className: "tagline overtext"}, "Health coach interface")
 
-                      )
+                        )
+
+                    )
 
                   )
+                )
 
+
+              ), 
+
+              React.createElement("div", {className: "col l4 m6 s12"}, 
+
+                React.createElement("a", {href: "https://dylan-gregory.github.io/7.4-majestic-thai/"}, 
+                  React.createElement("div", {className: "card majestic-card"}, 
+
+                    React.createElement("div", {className: "box"}, 
+
+
+                        React.createElement("div", {className: "overbox"}, 
+
+                          React.createElement("div", {className: "title overtext"}, "Thai"), 
+
+                          React.createElement("div", {className: "tagline overtext"}, "Mobile ordering web-store")
+
+                        )
+
+                    )
+
+                  )
                 )
 
               ), 
 
               React.createElement("div", {className: "col l4 m6 s12"}, 
 
-                React.createElement("div", {className: "card majestic-card"}, 
+                React.createElement("a", {href: "https://dylan-gregory.github.io/4.4-github-profile/"}, 
+                  React.createElement("div", {className: "card github-card"}, 
 
-                  React.createElement("div", {className: "box"}, 
-
-
-                      React.createElement("div", {className: "overbox"}, 
-
-                        React.createElement("div", {className: "title overtext"}, "Thai"), 
-
-                        React.createElement("div", {className: "tagline overtext"}, "Mobile ordering web-store")
-
-                      )
-
-                  )
-
-                )
-              ), 
-
-              React.createElement("div", {className: "col l4 m6 s12"}, 
-
-                React.createElement("div", {className: "card github-card"}, 
-
-                  React.createElement("div", {className: "box"}, 
+                    React.createElement("div", {className: "box"}, 
 
 
-                      React.createElement("div", {className: "overbox"}, 
+                        React.createElement("div", {className: "overbox"}, 
 
-                        React.createElement("div", {className: "title overtext"}, "GitHub"), 
+                          React.createElement("div", {className: "title overtext"}, "GitHub"), 
 
-                        React.createElement("div", {className: "tagline overtext"}, "Working with GitHub's API")
+                          React.createElement("div", {className: "tagline overtext"}, "Working with GitHub's API")
 
-                      )
+                        )
+
+                    )
 
                   )
-
                 )
+                
               )
 
 
