@@ -4,14 +4,22 @@ var ReactDOM = require('react-dom');
 var $ = require('jquery');
 
 var MainContainer = require('./components/main.jsx').MainContainer;
+var MoxyDetail = require('./components/moxy.jsx').MoxyDetail;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
-    '': 'home'
+    '': 'home',
+    'moxy/': 'moxy'
   },
   home: function(){
     ReactDOM.render(
       React.createElement(MainContainer),
+      document.getElementById('app')
+    )
+  },
+  moxy: function(){
+    ReactDOM.render(
+      React.createElement(MoxyDetail),
       document.getElementById('app')
     )
   }

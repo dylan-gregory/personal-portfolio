@@ -32,7 +32,7 @@ class MainContainer extends React.Component {
             <div className="container">
               <div className="col l4 m6 s12">
 
-                <a href="https://dylan-gregory.github.io/tiy-final-project/">
+                <a href="#moxy/">
                   <div className="card moxy-card">
                     <div className="box">
 
@@ -95,7 +95,7 @@ class MainContainer extends React.Component {
 
                   </div>
                 </a>
-                
+
               </div>
 
 
