@@ -338,3 +338,85 @@ body{
   }
 
 }
+
+.Moxy-detail{
+  background-color: #3E4C5E;
+}
+
+.moxy-detail-pic{
+  margin-left: 50px;
+  padding-right: 50px;
+}
+
+.devicons{
+  color: white;
+  margin-top: 40px;
+}
+
+.description{
+  margin-top: 50px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn-floating{
+  margin: 80px 20px 0 20px;
+  background-color: #FFFAE2;
+
+  i{
+    color: #3E4C5E;
+  }
+}
+
+.btn-floating:hover{
+  transition: .4s;
+  background-color: #4E4C5E;
+
+  i{
+    transition: .4s;
+    color: #FFFAE2;
+  }
+}
+
+.detail-title{
+  font-family: 'Bungee';
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+.thai-detail-title{
+  font-family: 'Bungee';
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  // margin-bottom: 20px;
+}
+
+.Thai-detail{
+  background-color: #3E4C5E;
+}
+
+.thai-detail-pic{
+  margin-left: 50px;
+  padding-right: 50px;
+}
+
+.Github-detail{
+  background-color: #3E4C5E;
+}
+
+.github-detail-title{
+  font-family: 'Bungee';
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  // margin-bottom: 20px;
+}
+
+.github-detail-pic{
+  margin-left: 50px;
+  padding-right: 50px;
+}

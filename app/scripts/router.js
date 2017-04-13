@@ -5,11 +5,15 @@ var $ = require('jquery');
 
 var MainContainer = require('./components/main.jsx').MainContainer;
 var MoxyDetail = require('./components/moxy.jsx').MoxyDetail;
+var ThaiDetail = require('./components/thai.jsx').ThaiDetail;
+var GithubDetail = require('./components/github.jsx').GithubDetail
 
 var AppRouter = Backbone.Router.extend({
   routes: {
     '': 'home',
-    'moxy/': 'moxy'
+    'moxy/': 'moxy',
+    'thai/': 'thai',
+    'github/': 'github'
   },
   home: function(){
     ReactDOM.render(
@@ -20,6 +24,18 @@ var AppRouter = Backbone.Router.extend({
   moxy: function(){
     ReactDOM.render(
       React.createElement(MoxyDetail),
+      document.getElementById('app')
+    )
+  },
+  thai: function(){
+    ReactDOM.render(
+      React.createElement(ThaiDetail),
+      document.getElementById('app')
+    )
+  },
+  github: function(){
+    ReactDOM.render(
+      React.createElement(GithubDetail),
       document.getElementById('app')
     )
   }

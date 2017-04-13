@@ -4,18 +4,18 @@ var $ = window.$ = window.jQuery = require('jquery');
 require('materialize-sass-origin/js/bin/materialize.js');
 require('materialize-sass-origin/js/tooltip.js');
 
-class MoxyDetail extends React.Component {
+class ThaiDetail extends React.Component {
   componentDidMount(){
     $('.tooltipped').tooltip({delay: 50});
   }
   render(){
     return (
-      <div className="Moxy-detail">
+      <div className="Thai-detail">
         <div className="row">
-          <div className="detail-title">Moxy</div>
+          <div className="thai-detail-title">Majestic Thai</div>
           <div className="col m7">
 
-            <img className="moxy-detail-pic" src="images/Moxy-screen-1.png" />
+            <img className="thai-detail-pic" src="images/majestic-thai.png" />
 
           </div>
 
@@ -49,6 +49,12 @@ class MoxyDetail extends React.Component {
 
               <div className="col m4">
                 <div className="devicons">
+                  <i className="devicon-bootstrap-plain"></i>
+                </div>
+              </div>
+
+              <div className="col m4">
+                <div className="devicons">
                   <i className="devicon-sass-original"></i>
                 </div>
               </div>
@@ -57,8 +63,8 @@ class MoxyDetail extends React.Component {
 
             <div className="col l6 offset-l3 m12">
               <a className="btn-floating btn-large waves-effect waves-light tooltipped"
-                data-position="bottom" data-delay="50" data-tooltip="Visit the site" href="https://dylan-gregory.github.io/tiy-final-project/"><i className="material-icons">computer</i></a>
-              <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit the codebase" href="https://github.com/dylan-gregory/tiy-final-project"><i className="material-icons">code</i></a>
+                data-position="bottom" data-delay="50" data-tooltip="Visit the site" href="https://dylan-gregory.github.io/7.4-majestic-thai/"><i className="material-icons">computer</i></a>
+              <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit the codebase" href="https://github.com/dylan-gregory/7.4-majestic-thai"><i className="material-icons">code</i></a>
             </div>
 
           </div>
@@ -69,7 +75,7 @@ class MoxyDetail extends React.Component {
 
           <div className="row">
             <div className="col m8 offset-m2">
-              <p className="description">The idea for Moxy came from my wife, who is in school right now to become what is called a Health Coach. A Health Coach is a person who - well - does just that. When someone goes to the doctor and finds out that they have diabetes, for instance, the doctor never has time to sit down with them and explain what about their diet and habits that they need to change - so that is where a health coach comes in. I built Moxy to be an interface specifically for use between a health coach and their various clients. With Moxy, a health coach can customize the health plan, made up of action steps (todos), for each individual client, tailored to their specific needs. I was able to integrate with a really awesome API called Nutritionix, which allows each client to search the database and keep track of the nutrition facts for the food they eat each day/week.</p>
+              <p className="description">Majestic Thai was one of my favorite projects from my time at The Iron Yard. We were tasked with building an online webstore for a thai restaurant, capable of adding food items to a cart, calculating a subtotal, and submitting an order.</p>
             </div>
           </div>
         </div>
@@ -79,5 +85,5 @@ class MoxyDetail extends React.Component {
 }
 
 module.exports = {
-  MoxyDetail
+  ThaiDetail
 };

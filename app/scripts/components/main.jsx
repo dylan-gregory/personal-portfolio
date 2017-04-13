@@ -54,7 +54,7 @@ class MainContainer extends React.Component {
 
               <div className="col l4 m6 s12">
 
-                <a href="https://dylan-gregory.github.io/7.4-majestic-thai/">
+                <a href="#thai/">
                   <div className="card majestic-card">
 
                     <div className="box">
@@ -77,7 +77,7 @@ class MainContainer extends React.Component {
 
               <div className="col l4 m6 s12">
 
-                <a href="https://dylan-gregory.github.io/4.4-github-profile/">
+                <a href="#github/">
                   <div className="card github-card">
 
                     <div className="box">
