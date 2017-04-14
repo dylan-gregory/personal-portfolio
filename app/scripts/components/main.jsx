@@ -109,51 +109,51 @@ class MainContainer extends React.Component {
 
             <div className="container">
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-html5-plain-wordmark colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-css3-plain-wordmark colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-javascript-plain colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-backbonejs-plain-wordmark colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-react-original-wordmark colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-jquery-plain-wordmark"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-sass-original colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-bootstrap-plain-wordmark colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-github-plain colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="tool col l2 m3 s6">
                 <i className="devicon-mocha-plain colored"></i>
               </div>
 
-              <div className="col m2">
+              <div className="odd-tool col l2 m3 s6">
                 <i className="devicons devicons-yeoman"></i>
               </div>
 
-              <div className="col m2">
+              <div className="odd-tool col l2 m3 s6">
                 <i className="devicons devicons-requirejs"></i>
               </div>
 
@@ -162,11 +162,11 @@ class MainContainer extends React.Component {
 
 
             <div className="row me-block">
-              <div className="col m4">
+              <div className="col l4 m5 s12">
                 <img className="pic-me" src="images/me-by-darious.jpg" />
               </div>
-              <div className="col m8">
-                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things caffeinated and brewed."}</p>
+              <div className="col l8 m7 s12">
+                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer."}</p>
               </div>
 
             </div>
@@ -181,8 +181,12 @@ class MainContainer extends React.Component {
                     <li><a href="https://github.com/dylan-gregory"><i className="fa fa-github" aria-hidden="true"></i>github.com/dylan-gregory</a></li>
                     <li><a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn Profile</a></li>
                     <li><a href="https://www.instagram.com/dylangreg"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                    <li><a href="./images/my-resume.pdf"><i className="material-icons">insert_drive_file</i>Checkout my resume</a></li>
                   </ul>
 
+                </div>
+                <div className="col m6">
+                  <img className="right" src="./images/red-convert.png"/>
                 </div>
               </div>
 
