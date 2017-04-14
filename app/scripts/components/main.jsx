@@ -104,6 +104,62 @@ class MainContainer extends React.Component {
             </div>
           </div>
 
+          <div className="row toolkit-block">
+            <h3 className="program-header">My programming toolkit</h3>
+
+            <div className="container">
+
+              <div className="col m2">
+                <i className="devicon-html5-plain-wordmark colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-css3-plain-wordmark colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-javascript-plain colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-backbonejs-plain-wordmark colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-react-original-wordmark colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-jquery-plain-wordmark"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-sass-original colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-bootstrap-plain-wordmark colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-github-plain colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicon-mocha-plain colored"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicons devicons-yeoman"></i>
+              </div>
+
+              <div className="col m2">
+                <i className="devicons devicons-requirejs"></i>
+              </div>
+
+            </div>
+          </div>
+
 
             <div className="row me-block">
               <div className="col m4">

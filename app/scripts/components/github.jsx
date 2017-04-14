@@ -71,7 +71,7 @@ class GithubDetail extends React.Component {
 
           <div className="row">
             <div className="col m8 offset-m2">
-              <p className="description">This was my first attempt at working with a AJAX calls to an API. Thankfully, GitHub has a super awesome and easy to use API, which I queried to bring in all of the data you see here: the photos, list of projects, organizations, etc. This project is what definitely brought programming to a whole new level in my mind - dynamic data is a game changer!!</p>
+              <p className="description">This was my first attempt at working with AJAX calls to an API. Thankfully, GitHub has a super awesome and easy to use API, which I queried to bring in all of the data you see here: the photos, list of projects, organizations, etc. This project is what definitely brought programming to a whole new level in my mind - dynamic data is a game changer!!</p>
             </div>
           </div>
         </div>

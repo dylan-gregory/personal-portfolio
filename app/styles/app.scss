@@ -91,14 +91,15 @@ body{
 .proj-title{
   // position: relative;
   // top: 100vh;
-  background-color: #FFFAE2;
+  background-color: #3E4C5E;
   margin-top: 0;
   font-size: 30px;
   padding: 20px;
+  color: white;
 }
 
 .proj-block{
-  background-color: #FFFAE2;
+  background-color: #3E4C5E;
   padding-bottom: 35px;
 }
 
@@ -483,4 +484,20 @@ body{
 
 .thai-buttons .btn-floating {
   margin-top: 0;
+}
+
+.toolkit-block{
+  background-color: #FFFAE2;
+}
+
+.program-header{
+  margin: 0;
+}
+
+.toolkit-block{
+
+  i{
+    font-size: 90px;
+    color: black;
+  }
 }
