@@ -13,41 +13,42 @@ class GithubDetail extends React.Component {
       <div className="Github-detail">
         <div className="row">
           <div className="github-detail-title">Github Recreation</div>
-          <div className="col m7">
+          <div className="container-fluid">
+          <div className="col l6 s12">
 
             <img className="github-detail-pic" src="images/github.png" />
 
           </div>
 
-          <div className="col m5">
+          <div className="col l6 s12">
 
             <div className="proj-tools">
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons devicons-html5"></div>
               </div>
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons devicons-css3"></div>
               </div>
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons devicons-javascript_badge"></div>
               </div>
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons">
                   <i className="devicon-bootstrap-plain"></i>
                 </div>
               </div>
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons">
                   <i className="devicon-backbonejs-plain"></i>
                 </div>
               </div>
 
-              <div className="col m4">
+              <div className="col m4 s6">
                 <div className="devicons">
                   <i className="devicon-sass-original"></i>
                 </div>
@@ -55,11 +56,12 @@ class GithubDetail extends React.Component {
 
             </div>
 
-            <div className="col l6 offset-l3 m12">
+            <div className="button-box col l6 offset-l3 m12">
               <a className="btn-floating btn-large waves-effect waves-light tooltipped"
                 data-position="bottom" data-delay="50" data-tooltip="Visit the site" href="https://dylan-gregory.github.io/7.4-majestic-thai/"><i className="material-icons">computer</i></a>
               <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit the codebase" href="https://github.com/dylan-gregory/7.4-majestic-thai"><i className="material-icons">code</i></a>
             </div>
+          </div>
 
           </div>
 

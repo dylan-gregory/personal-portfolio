@@ -20,8 +20,9 @@ class MainContainer extends React.Component {
 
           </div>
 
-          </div>
+        </div>
 
+        <div className="body">
           <div className="row proj-title">
 
               Here are a few things I'm working on
@@ -109,7 +110,7 @@ class MainContainer extends React.Component {
                 <img className="pic-me" src="images/me-by-darious.jpg" />
               </div>
               <div className="col m8">
-                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold - I believe that the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. In my free time, I'm a musician, songwriter, and lover of all things caffeinated and brewed"}</p>
+                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things caffeinated and brewed."}</p>
               </div>
 
             </div>
@@ -131,7 +132,7 @@ class MainContainer extends React.Component {
 
 
             </div>
-
+          </div>
         </div>
 
 

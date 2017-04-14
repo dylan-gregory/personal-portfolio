@@ -27,6 +27,8 @@ body{
 // Light blue #E2FCEF
 
 .head{
+  position: fixed;
+  width: 100%;
   font-family: 'Raleway', sans-serif;
   background: url('../images/desert-hills.jpg');
   background-size: cover;
@@ -36,6 +38,12 @@ body{
   -moz-background-size: cover;
   background-size: cover;
   text-align: center;
+
+}
+
+.body{
+  position: relative;
+  top: 100vh;
 }
 
 .name{
@@ -81,6 +89,8 @@ body{
 }
 
 .proj-title{
+  // position: relative;
+  // top: 100vh;
   background-color: #FFFAE2;
   margin-top: 0;
   font-size: 30px;
@@ -343,14 +353,20 @@ body{
   background-color: #3E4C5E;
 }
 
-.moxy-detail-pic{
-  margin-left: 50px;
+.container-fluid{
+  padding-left: 50px;
   padding-right: 50px;
+}
+
+.moxy-detail-pic{
+  // margin-left: 50px;
+  // padding-right: 50px;
+  // margin-top: -55px;
 }
 
 .devicons{
   color: white;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .description{
@@ -360,8 +376,18 @@ body{
   text-align: center;
 }
 
+.proj-tools > div{
+  display: flex;
+  justify-content: center;
+}
+
+.button-box{
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn-floating{
-  margin: 80px 20px 0 20px;
+  margin-top: 80px;
   background-color: #FFFAE2;
 
   i{
@@ -384,8 +410,10 @@ body{
   color: white;
   font-size: 70px;
   text-align: center;
-  margin-bottom: -30px;
+  // margin-bottom: -30px;
 }
+
+
 
 .thai-detail-title{
   font-family: 'Bungee';
@@ -395,14 +423,21 @@ body{
   // margin-bottom: 20px;
 }
 
+@media (max-width: 650px) {
+  .thai-detail-title{
+    font-size: 40px;
+  }
+
+}
+
 .Thai-detail{
   background-color: #3E4C5E;
 }
 
-.thai-detail-pic{
-  margin-left: 50px;
-  padding-right: 50px;
-}
+// .thai-detail-pic{
+//   margin-left: 50px;
+//   padding-right: 50px;
+// }
 
 .Github-detail{
   background-color: #3E4C5E;
@@ -416,7 +451,36 @@ body{
   // margin-bottom: 20px;
 }
 
-.github-detail-pic{
-  margin-left: 50px;
-  padding-right: 50px;
+@media (max-width: 820px) {
+  .github-detail-title{
+    font-size: 55px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .github-detail-title{
+    font-size: 40px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .github-detail-title{
+    font-size: 30px;
+  }
+
+}
+
+// .github-detail-pic{
+//   margin-left: 50px;
+//   padding-right: 50px;
+// }
+
+// .tools-used{
+//   display: flex;
+// }
+
+.thai-buttons .btn-floating {
+  margin-top: 0;
 }
