@@ -16,7 +16,7 @@ class MoxyDetail extends React.Component {
           <div className="container-fluid">
           <div className="col l6 s12">
 
-            <img className="moxy-detail-pic" src="images/Moxy-screen-12.png" />
+            <img className="moxy-detail-pic" src="images/moxy-grab.png" />
 
           </div>
 
@@ -71,7 +71,7 @@ class MoxyDetail extends React.Component {
 
         <div className="row">
 
-          <div className="row">
+          <div className="row descript-row">
             <div className="col m8 offset-m2">
               <p className="description">The idea for Moxy came from my wife, who is in school right now to become what is called a Health Coach. A Health Coach is a person who - well - does just that. When someone goes to the doctor and finds out that they have diabetes, for instance, the doctor never has time to sit down with them and explain what about their diet and habits that they need to change - so that is where a health coach comes in. I built Moxy to be an interface specifically for use between a health coach and their various clients. With Moxy, a health coach can customize the health plan, made up of action steps (todos), for each individual client, tailored to their specific needs. I was able to integrate with a really awesome API called Nutritionix, which allows each client to search the database and keep track of the nutrition facts for the food they eat each day/week.</p>
             </div>

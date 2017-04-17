@@ -99,6 +99,29 @@ class MainContainer extends React.Component {
 
               </div>
 
+              <div className="col l4 m6 s12">
+
+                <a href="#etsy/">
+                  <div className="card etsy-card">
+
+                    <div className="box">
+
+
+                        <div className="overbox">
+
+                          <div className="title overtext">Etsy</div>
+
+                          <div className="tagline overtext">Working with Etsy's API</div>
+
+                        </div>
+
+                    </div>
+
+                  </div>
+                </a>
+
+              </div>
+
 
 
             </div>
@@ -163,7 +186,7 @@ class MainContainer extends React.Component {
 
             <div className="row me-block">
               <div className="col l4 m5 s12">
-                <img className="pic-me" src="images/me-by-darious.jpg" />
+                <img className="pic-me" src="images/flower-pic.JPG" />
               </div>
               <div className="col l8 m7 s12">
                 <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer."}</p>

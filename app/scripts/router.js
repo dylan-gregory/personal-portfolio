@@ -7,13 +7,15 @@ var MainContainer = require('./components/main.jsx').MainContainer;
 var MoxyDetail = require('./components/moxy.jsx').MoxyDetail;
 var ThaiDetail = require('./components/thai.jsx').ThaiDetail;
 var GithubDetail = require('./components/github.jsx').GithubDetail
+var EtsyDetail = require('./components/etsy.jsx').EtsyDetail;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
     '': 'home',
     'moxy/': 'moxy',
     'thai/': 'thai',
-    'github/': 'github'
+    'github/': 'github',
+    'etsy/': 'etsy'
   },
   home: function(){
     ReactDOM.render(
@@ -36,6 +38,12 @@ var AppRouter = Backbone.Router.extend({
   github: function(){
     ReactDOM.render(
       React.createElement(GithubDetail),
+      document.getElementById('app')
+    )
+  },
+  etsy: function(){
+    ReactDOM.render(
+      React.createElement(EtsyDetail),
       document.getElementById('app')
     )
   }

@@ -148,12 +148,12 @@ body{
 }
 
 .moxy-card{
-  background-image: url('../images/Moxy-screen-1.png');
+  background-image: url('../images/moxy-grab.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -35px;
-  background-position-x: -58px;
+  // background-position: center;
+  // background-position-y: -35px;
+  // background-position-x: -58px;
 }
 
 .moxy-cap{
@@ -174,21 +174,30 @@ body{
 
 
 .majestic-card{
-  background-image: url('../images/majestic-thai.png');
+  background-image: url('../images/thai-grab.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -35px;
-  background-position-x: -58px;
+  // background-position: center;
+  // background-position-y: -35px;
+  // background-position-x: -58px;
 }
 
 .github-card{
-  background-image: url('../images/github.png');
+  background-image: url('../images/github-grab.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -35px;
-  background-position-x: -58px;
+  // background-position: center;
+  // background-position-y: -35px;
+  // background-position-x: -58px;
+}
+
+.etsy-card{
+  background-image: url('../images/etsy-grab.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-position: center;
+  // background-position-y: -35px;
+  // background-position-x: -58px;
 }
 
 
@@ -389,6 +398,10 @@ body{
   background-color: #3E4C5E;
 }
 
+.Etsy-detail{
+  background-color: #3E4C5E;
+}
+
 .container-fluid{
   padding-left: 50px;
   padding-right: 50px;
@@ -405,9 +418,17 @@ body{
 
 .description{
   margin-top: 50px;
-  color: white;
+  color: black;
   font-size: 18px;
   text-align: center;
+
+}
+
+.descript-row{
+  background-color: #FFFAE2;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 40px;
 }
 
 .proj-tools > div{
@@ -441,9 +462,12 @@ body{
 
 .detail-title{
   font-family: 'Bungee';
+  // text-decoration: underline;
   color: white;
   font-size: 70px;
   text-align: center;
+  padding: 20px;
+  // background-color: #FFFAE2;
   // margin-bottom: -30px;
 }
 
@@ -451,9 +475,12 @@ body{
 
 .thai-detail-title{
   font-family: 'Bungee';
+  // text-decoration: underline;
   color: white;
   font-size: 70px;
   text-align: center;
+  padding: 20px;
+  // background-color: #FFFAE2;
   // margin-bottom: 20px;
 }
 
@@ -479,8 +506,11 @@ body{
 .github-detail-title{
   font-family: 'Bungee';
   color: white;
+  // text-decoration: underline;
   font-size: 70px;
   text-align: center;
+  padding: 20px;
+  // background-color: #FFFAE2;
   // margin-bottom: 20px;
 }
 

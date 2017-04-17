@@ -16,7 +16,7 @@ class ThaiDetail extends React.Component {
           <div className="container-fluid">
           <div className="col l6 s12">
 
-            <img className="thai-detail-pic" src="images/majestic-thai.png" />
+            <img className="thai-detail-pic" src="images/thai-grab.png" />
 
           </div>
 
@@ -75,7 +75,7 @@ class ThaiDetail extends React.Component {
 
         <div className="row">
 
-          <div className="row">
+          <div className="row descript-row">
             <div className="col m8 offset-m2">
               <p className="description">Majestic Thai was one of my favorite projects from my time at The Iron Yard. We were tasked with building an online webstore for a thai restaurant, capable of adding food items to a cart, calculating a subtotal, and submitting an order.</p>
             </div>
