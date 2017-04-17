@@ -8581,6 +8581,7 @@ body {
 
 .head {
   position: fixed;
+  height: 100vh;
   width: 100%;
   font-family: 'Raleway', sans-serif;
   background: url("../images/desert-hills.jpg");
@@ -8609,10 +8610,29 @@ body {
   margin-bottom: 235px; }
 
 .about-me {
-  font-size: 23px;
+  font-size: 21px;
   line-height: 1.8em;
-  margin-top: 0; }
+  margin-top: 40px; }
 
+@media (max-width: 1119px) {
+  .about-me {
+    margin-top: 20px; } }
+@media (max-width: 1059px) {
+  .about-me {
+    font-size: 19px;
+    margin-top: 20px; } }
+@media (max-width: 974px) {
+  .about-me {
+    font-size: 18px;
+    margin-top: 15px; } }
+@media (max-width: 900px) {
+  .about-me {
+    font-size: 17px;
+    margin-top: 0px; } }
+@media (max-width: 805px) {
+  .about-me {
+    font-size: 16px;
+    margin-top: 0px; } }
 .pic-me {
   max-height: 450px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
@@ -8623,13 +8643,14 @@ body {
   color: white; }
 
 .proj-title {
-  background-color: #FFFAE2;
+  background-color: #3E4C5E;
   margin-top: 0;
   font-size: 30px;
-  padding: 20px; }
+  padding: 20px;
+  color: white; }
 
 .proj-block {
-  background-color: #FFFAE2;
+  background-color: #3E4C5E;
   padding-bottom: 35px; }
 
 .Moxy-pic {
@@ -8802,6 +8823,9 @@ body {
   padding-left: 50px;
   padding-right: 50px; }
 
+.moxy-detail-pic {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
 .devicons {
   color: white;
   margin-top: 20px; }
@@ -8860,6 +8884,9 @@ body {
 .Thai-detail {
   background-color: #3E4C5E; }
 
+.thai-detail-pic {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
 .Github-detail {
   background-color: #3E4C5E; }
 
@@ -8878,7 +8905,46 @@ body {
 @media (max-width: 480px) {
   .github-detail-title {
     font-size: 30px; } }
+.github-detail-pic {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
 .thai-buttons .btn-floating {
   margin-top: 0; }
+
+.toolkit-block {
+  background-color: #FFFAE2; }
+
+.program-header {
+  font-size: 30px;
+  padding: 20px;
+  margin: 0; }
+
+.toolkit-block {
+  padding-bottom: 35px; }
+  .toolkit-block .tool {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .toolkit-block .odd-tool {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 10px; }
+  .toolkit-block i {
+    font-size: 120px;
+    color: black;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=app.css.map */

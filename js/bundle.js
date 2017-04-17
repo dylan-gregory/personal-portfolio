@@ -73,7 +73,7 @@ class GithubDetail extends React.Component {
 
           React.createElement("div", {className: "row"}, 
             React.createElement("div", {className: "col m8 offset-m2"}, 
-              React.createElement("p", {className: "description"}, "This was my first attempt at working with a AJAX calls to an API. Thankfully, GitHub has a super awesome and easy to use API, which I queried to bring in all of the data you see here: the photos, list of projects, organizations, etc. This project is what definitely brought programming to a whole new level in my mind - dynamic data is a game changer!!")
+              React.createElement("p", {className: "description"}, "This was my first attempt at working with AJAX calls to an API. Thankfully, GitHub has a super awesome and easy to use API, which I queried to bring in all of the data you see here: the photos, list of projects, organizations, etc. This project is what definitely brought programming to a whole new level in my mind - dynamic data is a game changer!!")
             )
           )
         )
@@ -194,13 +194,69 @@ class MainContainer extends React.Component {
             )
           ), 
 
+          React.createElement("div", {className: "row toolkit-block"}, 
+            React.createElement("h3", {className: "program-header"}, "My programming toolkit"), 
+
+            React.createElement("div", {className: "container"}, 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-html5-plain-wordmark colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-css3-plain-wordmark colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-javascript-plain colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-backbonejs-plain-wordmark colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-react-original-wordmark colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-jquery-plain-wordmark"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-sass-original colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-bootstrap-plain-wordmark colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-github-plain colored"})
+              ), 
+
+              React.createElement("div", {className: "tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicon-mocha-plain colored"})
+              ), 
+
+              React.createElement("div", {className: "odd-tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicons devicons-yeoman"})
+              ), 
+
+              React.createElement("div", {className: "odd-tool col l2 m3 s6"}, 
+                React.createElement("i", {className: "devicons devicons-requirejs"})
+              )
+
+            )
+          ), 
+
 
             React.createElement("div", {className: "row me-block"}, 
-              React.createElement("div", {className: "col m4"}, 
+              React.createElement("div", {className: "col l4 m5 s12"}, 
                 React.createElement("img", {className: "pic-me", src: "images/me-by-darious.jpg"})
               ), 
-              React.createElement("div", {className: "col m8"}, 
-                React.createElement("p", {className: "about-me"}, "Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things caffeinated and brewed.")
+              React.createElement("div", {className: "col l8 m7 s12"}, 
+                React.createElement("p", {className: "about-me"}, "Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer.")
               )
 
             ), 
@@ -214,9 +270,13 @@ class MainContainer extends React.Component {
                     React.createElement("li", null, React.createElement("a", {href: "mailto:jdylangregory@gmail.com"}, React.createElement("i", {className: "material-icons prefix"}, "mail_outline"), "jdylangregory@gmail.com")), 
                     React.createElement("li", null, React.createElement("a", {href: "https://github.com/dylan-gregory"}, React.createElement("i", {className: "fa fa-github", "aria-hidden": "true"}), "github.com/dylan-gregory")), 
                     React.createElement("li", null, React.createElement("a", {href: "https://www.linkedin.com/in/dylan-gregory-66a551138/"}, React.createElement("i", {className: "fa fa-linkedin-square", "aria-hidden": "true"}), "LinkedIn Profile")), 
-                    React.createElement("li", null, React.createElement("a", {href: "https://www.instagram.com/dylangreg"}, React.createElement("i", {className: "fa fa-instagram", "aria-hidden": "true"}), " Instagram"))
+                    React.createElement("li", null, React.createElement("a", {href: "https://www.instagram.com/dylangreg"}, React.createElement("i", {className: "fa fa-instagram", "aria-hidden": "true"}), " Instagram")), 
+                    React.createElement("li", null, React.createElement("a", {href: "./images/my-resume.pdf"}, React.createElement("i", {className: "material-icons"}, "insert_drive_file"), "Checkout my resume"))
                   )
 
+                ), 
+                React.createElement("div", {className: "col m6"}, 
+                  React.createElement("img", {className: "right", src: "./images/red-convert.png"})
                 )
               )
 
