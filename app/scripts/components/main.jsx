@@ -24,7 +24,7 @@ class MainContainer extends React.Component {
 
         <div className="body">
           <div className="row proj-title">
-
+            <img className="star" src="./images/star-gold.png" />
               Here are a few things I'm working on
 
           </div>
@@ -128,7 +128,11 @@ class MainContainer extends React.Component {
           </div>
 
           <div className="row toolkit-block">
-            <h3 className="program-header">My programming toolkit</h3>
+            <div className="program-header">
+              <img className="shave" src="./images/shave.png" />
+              Tools of the trade
+
+            </div>
 
             <div className="container">
 
@@ -185,17 +189,22 @@ class MainContainer extends React.Component {
 
 
             <div className="row me-block">
+              <div className="me-head">
+                <img className="anchor" src="./images/anchor-gold.png" />
+                 About Me</div>
               <div className="col l4 m5 s12">
                 <img className="pic-me" src="images/flower-pic.JPG" />
               </div>
               <div className="col l8 m7 s12">
                 <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer."}</p>
+
+
               </div>
 
             </div>
 
             <div className="row contact-block">
-              <h3 className="contact-head">Contact me</h3>
+              <h3 className="contact-head">Contact me </h3>
               <div className="container">
 
                 <div className="col m6">

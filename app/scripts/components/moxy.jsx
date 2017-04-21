@@ -57,6 +57,7 @@ class MoxyDetail extends React.Component {
             </div>
 
             <div className="button-box col l6 offset-l3 s12">
+              <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="See the walkthrough" href="https://www.youtube.com/watch?v=W916hHsEMko"><i className="material-icons">live_tv</i></a>
               <a className="btn-floating btn-large waves-effect waves-light tooltipped"
                 data-position="bottom" data-delay="50" data-tooltip="Visit the site" href="https://dylan-gregory.github.io/tiy-final-project/"><i className="material-icons">computer</i></a>
               <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit the codebase" href="https://github.com/dylan-gregory/tiy-final-project"><i className="material-icons">code</i></a>
