@@ -12,7 +12,10 @@ class ThaiDetail extends React.Component {
     return (
       <div className="Thai-detail">
         <div className="row">
-          <div className="thai-detail-title">Majestic Thai</div>
+          <div className="thai-detail-title">
+            <span className="name-title">Majestic Thai</span>
+
+          </div>
           <div className="container-fluid">
           <div className="col l6 s12">
 

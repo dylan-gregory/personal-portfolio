@@ -12,7 +12,9 @@ class MoxyDetail extends React.Component {
     return (
       <div className="Moxy-detail">
         <div className="row">
-          <div className="detail-title">Moxy</div>
+          <div className="detail-title">
+            <span className="name-title">Moxy</span>
+          </div>
           <div className="container-fluid">
           <div className="col l6 s12">
 

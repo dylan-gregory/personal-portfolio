@@ -12,7 +12,10 @@ class EtsyDetail extends React.Component {
     return (
       <div className="Etsy-detail">
         <div className="row">
-          <div className="detail-title">Etsy Recreation</div>
+          <div className="detail-title">
+            <span className="name-title">Etsy Recreation</span>
+
+          </div>
           <div className="container-fluid">
           <div className="col l6 s12">
 
@@ -56,7 +59,7 @@ class EtsyDetail extends React.Component {
 
             </div>
 
-            <div className="button-box col l6 offset-l3 m12">
+            <div className="button-box col l6 offset-l3 s12">
               <a className="btn-floating btn-large waves-effect waves-light tooltipped"
                 data-position="bottom" data-delay="50" data-tooltip="Visit the site" href="https://dylan-gregory.github.io/4.2-etsy-recreation/"><i className="material-icons">computer</i></a>
               <a className="btn-floating btn-large waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Visit the codebase" href="https://github.com/dylan-gregory/4.2-etsy-recreation"><i className="material-icons">code</i></a>

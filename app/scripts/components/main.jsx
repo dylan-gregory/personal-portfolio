@@ -25,7 +25,7 @@ class MainContainer extends React.Component {
         <div className="body">
           <div className="row proj-title">
             <img className="star" src="./images/star-gold.png" />
-              Here are a few things I'm working on
+              My latest projects
 
           </div>
 
