@@ -8639,13 +8639,24 @@ body {
 
 .me-block {
   background-color: #3E4C5E;
-  padding: 50px 50px 50px 50px;
+  padding: 20px 50px 50px 50px;
   color: white; }
 
 .proj-title {
+  font-family: 'Bungee';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #3E4C5E;
   margin-top: 0;
   font-size: 30px;
+  letter-spacing: 2.5px;
   padding: 20px;
   color: white; }
 
@@ -8803,11 +8814,18 @@ body {
     margin-bottom: 20px; }
 
 .contact-head {
+  font-family: 'Bungee';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-  padding-left: 110px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  letter-spacing: 2.5px; }
 
 .proj-tools .devicons {
   font-size: 100px; }
@@ -8818,11 +8836,18 @@ body {
 .Etsy-detail {
   background-color: #3E4C5E; }
 
+.etsy-detail-pic {
+  border: 3px solid #E6AF2E;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
 .container-fluid {
   padding-left: 50px;
   padding-right: 50px; }
 
 .moxy-detail-pic {
+  border: 3px solid #E6AF2E;
+  border-radius: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .devicons {
@@ -8892,6 +8917,8 @@ body {
   background-color: #3E4C5E; }
 
 .thai-detail-pic {
+  border: 3px solid #E6AF2E;
+  border-radius: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .Github-detail {
@@ -8904,16 +8931,30 @@ body {
   text-align: center;
   padding: 20px; }
 
-@media (max-width: 820px) {
+@media (max-width: 850px) {
   .github-detail-title {
+    font-size: 55px; }
+
+  .detail-title {
     font-size: 55px; } }
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   .github-detail-title {
+    font-size: 40px; }
+
+  .detail-title {
     font-size: 40px; } }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .github-detail-title {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  .detail-title {
+    font-size: 30px; }
+
+  .github-name-title {
+    padding: 10px; } }
 .github-detail-pic {
+  border: 3px solid #E6AF2E;
+  border-radius: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .thai-buttons .btn-floating {
@@ -8923,7 +8964,18 @@ body {
   background-color: #FFFAE2; }
 
 .program-header {
+  font-family: 'Bungee';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 30px;
+  letter-spacing: 2.5px;
   padding: 20px;
   margin: 0; }
 
@@ -8954,5 +9006,46 @@ body {
     font-size: 120px;
     color: black;
     margin-bottom: 20px; }
+
+.me-head {
+  font-family: 'Bungee';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  margin-bottom: 20px;
+  margin-left: -30px; }
+
+.anchor {
+  height: 100px;
+  margin-right: 15px; }
+
+.star {
+  height: 80px;
+  margin-right: 15px; }
+
+.shave {
+  height: 70px;
+  margin-right: 15px; }
+
+.name-title {
+  background-color: #FFFAE2;
+  color: black;
+  padding: 20px 30px 20px 30px;
+  border-radius: 60px; }
+
+@media (max-width: 889px) {
+  .github-name-title {
+    padding: 10px; } }
+@media (max-width: 436px) {
+  .name-title {
+    padding: 10px; } }
 
 /*# sourceMappingURL=app.css.map */

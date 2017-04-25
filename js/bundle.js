@@ -14,7 +14,10 @@ class EtsyDetail extends React.Component {
     return (
       React.createElement("div", {className: "Etsy-detail"}, 
         React.createElement("div", {className: "row"}, 
-          React.createElement("div", {className: "detail-title"}, "Etsy Recreation"), 
+          React.createElement("div", {className: "detail-title"}, 
+            React.createElement("span", {className: "name-title"}, "Etsy Recreation")
+
+          ), 
           React.createElement("div", {className: "container-fluid"}, 
           React.createElement("div", {className: "col l6 s12"}, 
 
@@ -58,7 +61,7 @@ class EtsyDetail extends React.Component {
 
             ), 
 
-            React.createElement("div", {className: "button-box col l6 offset-l3 m12"}, 
+            React.createElement("div", {className: "button-box col l6 offset-l3 s12"}, 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", 
                 "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the site", href: "https://dylan-gregory.github.io/4.2-etsy-recreation/"}, React.createElement("i", {className: "material-icons"}, "computer")), 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the codebase", href: "https://github.com/dylan-gregory/4.2-etsy-recreation"}, React.createElement("i", {className: "material-icons"}, "code"))
@@ -102,7 +105,10 @@ class GithubDetail extends React.Component {
     return (
       React.createElement("div", {className: "Github-detail"}, 
         React.createElement("div", {className: "row"}, 
-          React.createElement("div", {className: "github-detail-title"}, "Github Recreation"), 
+          React.createElement("div", {className: "github-detail-title"}, 
+            React.createElement("span", {className: "name-title github-name-title"}, "Github Recreation")
+
+          ), 
           React.createElement("div", {className: "container-fluid"}, 
           React.createElement("div", {className: "col l6 s12"}, 
 
@@ -146,7 +152,7 @@ class GithubDetail extends React.Component {
 
             ), 
 
-            React.createElement("div", {className: "button-box col l6 offset-l3 m12"}, 
+            React.createElement("div", {className: "button-box col l6 offset-l3 s12 "}, 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", 
                 "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the site", href: "https://dylan-gregory.github.io/4.4-github-profile/"}, React.createElement("i", {className: "material-icons"}, "computer")), 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the codebase", href: "https://github.com/dylan-gregory/4.4-github-profile"}, React.createElement("i", {className: "material-icons"}, "code"))
@@ -203,8 +209,8 @@ class MainContainer extends React.Component {
 
         React.createElement("div", {className: "body"}, 
           React.createElement("div", {className: "row proj-title"}, 
-
-              "Here are a few things I'm working on"
+            React.createElement("img", {className: "star", src: "./images/star-gold.png"}), 
+              "My latest projects"
 
           ), 
 
@@ -307,7 +313,11 @@ class MainContainer extends React.Component {
           ), 
 
           React.createElement("div", {className: "row toolkit-block"}, 
-            React.createElement("h3", {className: "program-header"}, "My programming toolkit"), 
+            React.createElement("div", {className: "program-header"}, 
+              React.createElement("img", {className: "shave", src: "./images/shave.png"}), 
+              "Tools of the trade"
+
+            ), 
 
             React.createElement("div", {className: "container"}, 
 
@@ -364,17 +374,22 @@ class MainContainer extends React.Component {
 
 
             React.createElement("div", {className: "row me-block"}, 
+              React.createElement("div", {className: "me-head"}, 
+                React.createElement("img", {className: "anchor", src: "./images/anchor-gold.png"}), 
+                 "About Me"), 
               React.createElement("div", {className: "col l4 m5 s12"}, 
                 React.createElement("img", {className: "pic-me", src: "images/flower-pic.JPG"})
               ), 
               React.createElement("div", {className: "col l8 m7 s12"}, 
                 React.createElement("p", {className: "about-me"}, "Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer.")
+
+
               )
 
             ), 
 
             React.createElement("div", {className: "row contact-block"}, 
-              React.createElement("h3", {className: "contact-head"}, "Contact me"), 
+              React.createElement("h3", {className: "contact-head"}, "Contact me "), 
               React.createElement("div", {className: "container"}, 
 
                 React.createElement("div", {className: "col m6"}, 
@@ -482,7 +497,9 @@ class MoxyDetail extends React.Component {
     return (
       React.createElement("div", {className: "Moxy-detail"}, 
         React.createElement("div", {className: "row"}, 
-          React.createElement("div", {className: "detail-title"}, "Moxy"), 
+          React.createElement("div", {className: "detail-title"}, 
+            React.createElement("span", {className: "name-title"}, "Moxy")
+          ), 
           React.createElement("div", {className: "container-fluid"}, 
           React.createElement("div", {className: "col l6 s12"}, 
 
@@ -527,6 +544,7 @@ class MoxyDetail extends React.Component {
             ), 
 
             React.createElement("div", {className: "button-box col l6 offset-l3 s12"}, 
+              React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "See the walkthrough", href: "https://www.youtube.com/watch?v=W916hHsEMko"}, React.createElement("i", {className: "material-icons"}, "live_tv")), 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", 
                 "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the site", href: "https://dylan-gregory.github.io/tiy-final-project/"}, React.createElement("i", {className: "material-icons"}, "computer")), 
               React.createElement("a", {className: "btn-floating btn-large waves-effect waves-light tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Visit the codebase", href: "https://github.com/dylan-gregory/tiy-final-project"}, React.createElement("i", {className: "material-icons"}, "code"))
@@ -572,7 +590,10 @@ class ThaiDetail extends React.Component {
     return (
       React.createElement("div", {className: "Thai-detail"}, 
         React.createElement("div", {className: "row"}, 
-          React.createElement("div", {className: "thai-detail-title"}, "Majestic Thai"), 
+          React.createElement("div", {className: "thai-detail-title"}, 
+            React.createElement("span", {className: "name-title"}, "Majestic Thai")
+
+          ), 
           React.createElement("div", {className: "container-fluid"}, 
           React.createElement("div", {className: "col l6 s12"}, 
 
