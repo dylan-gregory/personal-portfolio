@@ -5,6 +5,9 @@ require('materialize-sass-origin/js/bin/materialize.js');
 require('materialize-sass-origin/js/tooltip.js');
 
 class MoxyDetail extends React.Component {
+  componentWillMount(){
+    window.scrollTo(0, 0);
+  }
   componentDidMount(){
     $('.tooltipped').tooltip({delay: 50});
   }

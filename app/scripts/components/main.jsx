@@ -101,7 +101,7 @@ class MainContainer extends React.Component {
 
               <div className="col l4 m6 s12">
 
-                <a href="#etsy/">
+                <a href="#etsy/" >
                   <div className="card etsy-card">
 
                     <div className="box">
