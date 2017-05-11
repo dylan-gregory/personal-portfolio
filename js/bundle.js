@@ -404,7 +404,7 @@ class MainContainer extends React.Component {
                     React.createElement("li", null, React.createElement("a", {href: "https://github.com/dylan-gregory"}, React.createElement("i", {className: "fa fa-github", "aria-hidden": "true"}), "github.com/dylan-gregory")), 
                     React.createElement("li", null, React.createElement("a", {href: "https://www.linkedin.com/in/dylan-gregory-66a551138/"}, React.createElement("i", {className: "fa fa-linkedin-square", "aria-hidden": "true"}), "LinkedIn Profile")), 
                     React.createElement("li", null, React.createElement("a", {href: "https://www.instagram.com/dylangreg"}, React.createElement("i", {className: "fa fa-instagram", "aria-hidden": "true"}), " Instagram")), 
-                    React.createElement("li", null, React.createElement("a", {href: "./images/my-resume.pdf"}, React.createElement("i", {className: "material-icons"}, "insert_drive_file"), "Checkout my resume"))
+                    React.createElement("li", null, React.createElement("a", {href: "./images/dylans-resume.pdf"}, React.createElement("i", {className: "material-icons"}, "insert_drive_file"), "Checkout my resume"))
                   )
 
                 ), 
