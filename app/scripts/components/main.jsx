@@ -213,7 +213,7 @@ class MainContainer extends React.Component {
                     <li><a href="https://github.com/dylan-gregory"><i className="fa fa-github" aria-hidden="true"></i>github.com/dylan-gregory</a></li>
                     <li><a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn Profile</a></li>
                     <li><a href="https://www.instagram.com/dylangreg"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-                    <li><a href="./images/my-resume.pdf"><i className="material-icons">insert_drive_file</i>Checkout my resume</a></li>
+                    <li><a href="./images/dylans-resume.pdf"><i className="material-icons">insert_drive_file</i>Checkout my resume</a></li>
                   </ul>
 
                 </div>
