@@ -134,57 +134,77 @@ class MainContainer extends React.Component {
 
             </div>
 
-            <div className="container">
+            <div className="container tool-box">
+              <div className="row">
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-html5-plain-wordmark colored"></i>
+                </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-html5-plain-wordmark colored"></i>
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-css3-plain-wordmark colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-javascript-plain colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-backbonejs-plain-wordmark colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-react-original-wordmark colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-jquery-plain-wordmark"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-sass-original colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-bootstrap-plain-wordmark colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-github-plain colored"></i>
+                </div>
+
+                <div className="tool col l2 m3 s6">
+                  <i className="devicon-mocha-plain colored"></i>
+                </div>
+
+                <div className="odd-tool col l2 m3 s6">
+                  <i className="devicons devicons-yeoman"></i>
+                </div>
+
+                <div className="odd-tool col l2 m3 s6">
+                  <i className="devicons devicons-requirejs"></i>
+                </div>
               </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-css3-plain-wordmark colored"></i>
-              </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-javascript-plain colored"></i>
-              </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-backbonejs-plain-wordmark colored"></i>
-              </div>
+              <div className="row new-tools">
+                <div className="tool col l2 m3 s6">
+                  <img src="./images/materialize-logo-png.png" />
+                </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-react-original-wordmark colored"></i>
-              </div>
+                <div className="strange-tool tool col l2 m3 s6 ">
+                  <img src="./images/react-native-logo.png" />
+                </div>
 
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-jquery-plain-wordmark"></i>
-              </div>
-
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-sass-original colored"></i>
-              </div>
-
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-bootstrap-plain-wordmark colored"></i>
-              </div>
-
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-github-plain colored"></i>
-              </div>
-
-              <div className="tool col l2 m3 s6">
-                <i className="devicon-mocha-plain colored"></i>
-              </div>
-
-              <div className="odd-tool col l2 m3 s6">
-                <i className="devicons devicons-yeoman"></i>
-              </div>
-
-              <div className="odd-tool col l2 m3 s6">
-                <i className="devicons devicons-requirejs"></i>
+                <div className="strange-tool tool col l2 m3 s6 ">
+                  <img src="./images/redux-logo.png" />
+                </div>
               </div>
 
             </div>
+
+
+
           </div>
 
 
