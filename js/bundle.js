@@ -194,10 +194,12 @@ var $ = window.$ = window.jQuery = require('jquery');
 
 require('materialize-sass-origin/js/bin/materialize.js');
 require('materialize-sass-origin/js/parallax.js');
+require('materialize-sass-origin/js/tooltip.js');
 
 class MainContainer extends React.Component {
   componentDidMount(){
     $('.parallax').parallax();
+    $('.tooltipped').tooltip({delay: 50});
   }
   render(){
     return (
@@ -325,57 +327,77 @@ class MainContainer extends React.Component {
 
             ), 
 
-            React.createElement("div", {className: "container"}, 
+            React.createElement("div", {className: "container tool-box"}, 
+              React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "HTML5"}, 
+                  React.createElement("i", {className: "devicon-html5-plain-wordmark colored"})
+                ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-html5-plain-wordmark colored"})
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "CSS3"}, 
+                  React.createElement("i", {className: "devicon-css3-plain-wordmark colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "JavaScript (ES6)"}, 
+                  React.createElement("i", {className: "devicon-javascript-plain colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Backbone.js"}, 
+                  React.createElement("i", {className: "devicon-backbonejs-plain-wordmark colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "ReactJS"}, 
+                  React.createElement("i", {className: "devicon-react-original-wordmark colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "jQuery"}, 
+                  React.createElement("i", {className: "devicon-jquery-plain-wordmark"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Sass"}, 
+                  React.createElement("i", {className: "devicon-sass-original colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Bootstrap"}, 
+                  React.createElement("i", {className: "devicon-bootstrap-plain-wordmark colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Git/GitHub"}, 
+                  React.createElement("i", {className: "devicon-github-plain colored"})
+                ), 
+
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Mocha"}, 
+                  React.createElement("i", {className: "devicon-mocha-plain colored"})
+                ), 
+
+                React.createElement("div", {className: "odd-tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Yeoman"}, 
+                  React.createElement("i", {className: "devicons devicons-yeoman"})
+                ), 
+
+                React.createElement("div", {className: "odd-tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Require.js"}, 
+                  React.createElement("i", {className: "devicons devicons-requirejs"})
+                )
               ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-css3-plain-wordmark colored"})
-              ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-javascript-plain colored"})
-              ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-backbonejs-plain-wordmark colored"})
-              ), 
+              React.createElement("div", {className: "row new-tools"}, 
+                React.createElement("div", {className: "tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Materialize/Material UI"}, 
+                  React.createElement("img", {src: "./images/materialize-logo-png.png"})
+                ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-react-original-wordmark colored"})
-              ), 
+                React.createElement("div", {className: "strange-tool tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "React Native"}, 
+                  React.createElement("img", {src: "./images/react-native-logo.png"})
+                ), 
 
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-jquery-plain-wordmark"})
-              ), 
-
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-sass-original colored"})
-              ), 
-
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-bootstrap-plain-wordmark colored"})
-              ), 
-
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-github-plain colored"})
-              ), 
-
-              React.createElement("div", {className: "tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicon-mocha-plain colored"})
-              ), 
-
-              React.createElement("div", {className: "odd-tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicons devicons-yeoman"})
-              ), 
-
-              React.createElement("div", {className: "odd-tool col l2 m3 s6"}, 
-                React.createElement("i", {className: "devicons devicons-requirejs"})
+                React.createElement("div", {className: "strange-tool tool col l2 m3 s6 tooltipped", "data-position": "bottom", "data-delay": "50", "data-tooltip": "Redux"}, 
+                  React.createElement("img", {src: "./images/redux-logo.png"})
+                )
               )
 
             )
+
+
+
           ), 
 
 
@@ -408,7 +430,7 @@ class MainContainer extends React.Component {
                   )
 
                 ), 
-                React.createElement("div", {className: "col m6"}, 
+                React.createElement("div", {className: "big-logo col m6"}, 
                   React.createElement("img", {className: "right", src: "./images/red-convert.png"})
                 )
               )
@@ -487,7 +509,7 @@ module.exports = {
   MainContainer
 }
 
-},{"jquery":33,"materialize-sass-origin/js/bin/materialize.js":34,"materialize-sass-origin/js/parallax.js":36,"react":191}],4:[function(require,module,exports){
+},{"jquery":33,"materialize-sass-origin/js/bin/materialize.js":34,"materialize-sass-origin/js/parallax.js":36,"materialize-sass-origin/js/tooltip.js":37,"react":191}],4:[function(require,module,exports){
 "use strict";
 var React = require('react');
 var $ = window.$ = window.jQuery = require('jquery');

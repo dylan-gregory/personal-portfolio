@@ -9006,6 +9006,9 @@ body {
     font-size: 120px;
     color: black;
     margin-bottom: 20px; }
+  .toolkit-block img {
+    max-height: 120px;
+    margin-bottom: 20px; }
 
 .me-head {
   font-family: 'Bungee';
@@ -9047,4 +9050,7 @@ body {
 @media (max-width: 436px) {
   .name-title {
     padding: 10px; } }
+.big-logo {
+  margin-top: 40px; }
+
 /*# sourceMappingURL=app.css.map */
