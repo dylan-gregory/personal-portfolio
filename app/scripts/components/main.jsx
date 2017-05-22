@@ -3,10 +3,12 @@ var $ = window.$ = window.jQuery = require('jquery');
 
 require('materialize-sass-origin/js/bin/materialize.js');
 require('materialize-sass-origin/js/parallax.js');
+require('materialize-sass-origin/js/tooltip.js');
 
 class MainContainer extends React.Component {
   componentDidMount(){
     $('.parallax').parallax();
+    $('.tooltipped').tooltip({delay: 50});
   }
   render(){
     return (
@@ -136,51 +138,51 @@ class MainContainer extends React.Component {
 
             <div className="container tool-box">
               <div className="row">
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="HTML5">
                   <i className="devicon-html5-plain-wordmark colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="CSS3">
                   <i className="devicon-css3-plain-wordmark colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="JavaScript (ES6)">
                   <i className="devicon-javascript-plain colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Backbone.js">
                   <i className="devicon-backbonejs-plain-wordmark colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="ReactJS">
                   <i className="devicon-react-original-wordmark colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="jQuery">
                   <i className="devicon-jquery-plain-wordmark"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Sass">
                   <i className="devicon-sass-original colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bootstrap">
                   <i className="devicon-bootstrap-plain-wordmark colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Git/GitHub">
                   <i className="devicon-github-plain colored"></i>
                 </div>
 
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Mocha">
                   <i className="devicon-mocha-plain colored"></i>
                 </div>
 
-                <div className="odd-tool col l2 m3 s6">
+                <div className="odd-tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Yeoman">
                   <i className="devicons devicons-yeoman"></i>
                 </div>
 
-                <div className="odd-tool col l2 m3 s6">
+                <div className="odd-tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Require.js">
                   <i className="devicons devicons-requirejs"></i>
                 </div>
               </div>
@@ -188,15 +190,15 @@ class MainContainer extends React.Component {
 
 
               <div className="row new-tools">
-                <div className="tool col l2 m3 s6">
+                <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Materialize/Material UI">
                   <img src="./images/materialize-logo-png.png" />
                 </div>
 
-                <div className="strange-tool tool col l2 m3 s6 ">
+                <div className="strange-tool tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="React Native">
                   <img src="./images/react-native-logo.png" />
                 </div>
 
-                <div className="strange-tool tool col l2 m3 s6 ">
+                <div className="strange-tool tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Redux">
                   <img src="./images/redux-logo.png" />
                 </div>
               </div>
@@ -237,7 +239,7 @@ class MainContainer extends React.Component {
                   </ul>
 
                 </div>
-                <div className="col m6">
+                <div className="big-logo col m6">
                   <img className="right" src="./images/red-convert.png"/>
                 </div>
               </div>
