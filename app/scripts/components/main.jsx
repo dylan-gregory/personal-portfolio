@@ -26,13 +26,37 @@ class MainContainer extends React.Component {
 
         <div className="body">
           <div className="row proj-title">
-            <img className="star" src="./images/star-gold.png" />
+            <img className="star" src="./images/horseshoe-logo.png" />
               My latest projects
 
           </div>
 
           <div className="row proj-block">
             <div className="container">
+
+              <div className="col l4 m6 s12">
+
+                <a href="#local_sound/" >
+                  <div className="card ls-card">
+
+                    <div className="box">
+
+
+                        <div className="overbox">
+
+                          <div className="title overtext">Local Sound</div>
+
+                          <div className="tagline overtext">Musician collaboration app</div>
+
+                        </div>
+
+                    </div>
+
+                  </div>
+                </a>
+
+              </div>
+
               <div className="col l4 m6 s12">
 
                 <a href="#moxy/">
@@ -124,14 +148,12 @@ class MainContainer extends React.Component {
 
               </div>
 
-
-
             </div>
           </div>
 
           <div className="row toolkit-block">
             <div className="program-header">
-              <img className="shave" src="./images/shave.png" />
+              <img className="shave" src="./images/razor-logo.png" />
               Tools of the trade
 
             </div>
@@ -201,6 +223,10 @@ class MainContainer extends React.Component {
                 <div className="strange-tool tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Redux">
                   <img src="./images/redux-logo.png" />
                 </div>
+
+                <div className="strange-tool tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Firebase">
+                  <img src="./images/firebase-logo.png" />
+                </div>
               </div>
 
             </div>
@@ -212,7 +238,7 @@ class MainContainer extends React.Component {
 
             <div className="row me-block">
               <div className="me-head">
-                <img className="anchor" src="./images/anchor-gold.png" />
+                <img className="anchor" src="./images/anchor-logo-1.png" />
                  About Me</div>
               <div className="col l4 m5 s12">
                 <img className="pic-me" src="images/flower-pic.JPG" />
@@ -226,15 +252,18 @@ class MainContainer extends React.Component {
             </div>
 
             <div className="row contact-block">
-              <h3 className="contact-head">Contact me </h3>
+              <h3 className="contact-head">
+                <img className="anchor" src="./images/swallow-logo.png" />
+                Contact me </h3>
               <div className="container">
 
                 <div className="col m6">
                   <ul>
-                    <li><a href="mailto:jdylangregory@gmail.com"><i className="material-icons prefix">mail_outline</i>jdylangregory@gmail.com</a></li>
-                    <li><a href="https://github.com/dylan-gregory"><i className="fa fa-github" aria-hidden="true"></i>github.com/dylan-gregory</a></li>
-                    <li><a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn Profile</a></li>
+                    <li><a href="mailto:jdylangregory@gmail.com"><i className="material-icons prefix">mail_outline</i> jdylangregory@gmail.com</a></li>
+                    <li><a href="https://github.com/dylan-gregory"><i className="fa fa-github" aria-hidden="true"></i> github.com/dylan-gregory</a></li>
+                    <li><a href="https://www.linkedin.com/in/dylan-gregory-66a551138/"><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn Profile</a></li>
                     <li><a href="https://www.instagram.com/dylangreg"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                    <li><a href="https://dribbble.com/dylan_gregory"><i className="fa fa-dribbble" aria-hidden="true"></i> Dribbble</a></li>
                     <li><a href="./images/dylans-resume.pdf"><i className="material-icons">insert_drive_file</i>Checkout my resume</a></li>
                   </ul>
 

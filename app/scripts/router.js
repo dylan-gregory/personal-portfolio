@@ -8,6 +8,7 @@ var MoxyDetail = require('./components/moxy.jsx').MoxyDetail;
 var ThaiDetail = require('./components/thai.jsx').ThaiDetail;
 var GithubDetail = require('./components/github.jsx').GithubDetail
 var EtsyDetail = require('./components/etsy.jsx').EtsyDetail;
+var LocalSoundDetail = require('./components/local-sound.jsx').LocalSoundDetail;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
@@ -15,7 +16,8 @@ var AppRouter = Backbone.Router.extend({
     'moxy/': 'moxy',
     'thai/': 'thai',
     'github/': 'github',
-    'etsy/': 'etsy'
+    'etsy/': 'etsy',
+    'local_sound/': 'local_sound'
   },
   home: function(){
     ReactDOM.render(
@@ -44,6 +46,12 @@ var AppRouter = Backbone.Router.extend({
   etsy: function(){
     ReactDOM.render(
       React.createElement(EtsyDetail),
+      document.getElementById('app')
+    )
+  },
+  local_sound: function(){
+    ReactDOM.render(
+      React.createElement(LocalSoundDetail),
       document.getElementById('app')
     )
   }
