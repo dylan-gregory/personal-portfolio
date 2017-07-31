@@ -25,7 +25,7 @@ class MainContainer extends React.Component {
 
         <div className="body">
           <div className="row proj-title">
-            <img className="rose" src="./images/rose-logo-final.png" />
+            <img className="dagger" src="./images/dagger.png" />
               My latest projects
 
           </div>
@@ -153,7 +153,7 @@ class MainContainer extends React.Component {
           <div className="row toolkit-block">
             <div className="program-header">
               <img className="razor" src="./images/razor-logo.png" />
-              Tools Of THe Trade
+              Tools of the trade
 
             </div>
 
@@ -168,7 +168,7 @@ class MainContainer extends React.Component {
                 </div>
 
                 <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="JavaScript (ES6)">
-                  <i className="devicon-javascript-plain colored"></i>
+                  <i className="devicon-javascript-plain"></i>
                 </div>
 
                 <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="Backbone.js">
@@ -176,7 +176,7 @@ class MainContainer extends React.Component {
                 </div>
 
                 <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="ReactJS">
-                  <i className="devicon-react-original-wordmark colored"></i>
+                  <i className="devicon-react-original-wordmark"></i>
                 </div>
 
                 <div className="tool col l2 m3 s6 tooltipped" data-position="bottom" data-delay="50" data-tooltip="jQuery">
@@ -240,7 +240,7 @@ class MainContainer extends React.Component {
                 <img className="anchor" src="./images/anchor-logo-1.png" />
                  About Me</div>
               <div className="col l4 m5 s12">
-                <img className="pic-me" src="images/flower-pic.JPG" />
+                <img className="pic-me" src="images/first-headshot.jpg" />
               </div>
               <div className="col l8 m7 s12">
                 <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee."}</p>
