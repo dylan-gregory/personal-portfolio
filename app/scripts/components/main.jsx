@@ -14,19 +14,18 @@ class MainContainer extends React.Component {
     return (
       <div>
         <div className="row head">
-          <div className="col m4 offset-m4">
 
-            <img className="logo" src="images/Gold-no-bg.png" />
+            <img className="logo" src="images/blue-logo-no-bg.png" />
             <h3 className="name">Dylan Gregory</h3>
             <h5 className="my-title">Front-End Web Developer</h5>
 
-          </div>
+
 
         </div>
 
         <div className="body">
           <div className="row proj-title">
-            <img className="star" src="./images/horseshoe-logo.png" />
+            <img className="rose" src="./images/rose-logo-final.png" />
               My latest projects
 
           </div>
@@ -153,8 +152,8 @@ class MainContainer extends React.Component {
 
           <div className="row toolkit-block">
             <div className="program-header">
-              <img className="shave" src="./images/razor-logo.png" />
-              Tools of the trade
+              <img className="razor" src="./images/razor-logo.png" />
+              Tools Of THe Trade
 
             </div>
 
@@ -244,7 +243,7 @@ class MainContainer extends React.Component {
                 <img className="pic-me" src="images/flower-pic.JPG" />
               </div>
               <div className="col l8 m7 s12">
-                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee and beer."}</p>
+                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee."}</p>
 
 
               </div>
@@ -253,7 +252,7 @@ class MainContainer extends React.Component {
 
             <div className="row contact-block">
               <h3 className="contact-head">
-                <img className="anchor" src="./images/swallow-logo.png" />
+                <img className="swallow" src="./images/swallow-logo.png" />
                 Contact me </h3>
               <div className="container">
 
