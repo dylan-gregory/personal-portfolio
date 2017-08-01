@@ -157,8 +157,28 @@ body{
   margin-top: 0;
   font-size: 40px;
   letter-spacing: 3px;
-  padding: 20px;
+  // padding: 20px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  // padding-left: 160px;
   color: white;
+}
+
+@media (max-width: 805px) {
+  .proj-title{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .proj-title{
+    font-size: 35px;
+  }
 }
 
 .proj-block{
@@ -372,11 +392,30 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-size: 40px;
   // padding-left: 110px;
-  padding-top: 40px;
+  padding-top: 20px;
   letter-spacing: 2.5px;
+}
+
+@media (max-width: 805px) {
+  .contact-head{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    // flex-direction: column;
+    // flex-flow: column-reverse;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .contact-head{
+    font-size: 35px;
+  }
 }
 
 .proj-tools{
@@ -578,8 +617,29 @@ body{
   letter-spacing: 2.5px;
   padding: 20px;
   margin: 0;
-
 }
+
+@media (max-width: 805px) {
+  .program-header{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .program-header{
+    font-size: 35px;
+
+  }
+}
+
+
 
 .toolkit-block{
   padding-bottom: 35px;
@@ -625,6 +685,19 @@ body{
   margin-left: -30px;
 }
 
+@media (max-width: 805px) {
+  .me-head{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -50px;
+    font-size: 35px;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
 .anchor{
   height: 140px;
   margin-right: 15px;
@@ -644,7 +717,7 @@ body{
 .swallow{
   height: 140px;
   margin-right: 15px;
-  margin-bottom: 70px;
+  // margin-bottom: 70px;
 }
 
 .name-title{

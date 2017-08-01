@@ -25,7 +25,7 @@ class MainContainer extends React.Component {
         <div className="body">
           <div className="row proj-title">
             <img className="dagger" src="./images/dagger.png" />
-              My latest projects
+              <span>My latest projects</span>
 
           </div>
 
@@ -152,7 +152,7 @@ class MainContainer extends React.Component {
           <div className="row toolkit-block">
             <div className="program-header">
               <img className="razor" src="./images/razor-logo.png" />
-              Tools of the trade
+              <span>Tools of the trade</span>
 
             </div>
 
