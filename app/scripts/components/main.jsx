@@ -7,7 +7,6 @@ require('materialize-sass-origin/js/tooltip.js');
 
 class MainContainer extends React.Component {
   componentDidMount(){
-    $('.parallax').parallax();
     $('.tooltipped').tooltip({delay: 50});
   }
   render(){
@@ -90,7 +89,7 @@ class MainContainer extends React.Component {
 
                           <div className="title overtext">Thai</div>
 
-                          <div className="tagline overtext">Mobile ordering web-store</div>
+                          <div className="tagline overtext">Takeout ordering portal</div>
 
                         </div>
 
@@ -113,7 +112,7 @@ class MainContainer extends React.Component {
 
                           <div className="title overtext">GitHub</div>
 
-                          <div className="tagline overtext">Working with GitHub's API</div>
+                          <div className="tagline overtext">Github recreation</div>
 
                         </div>
 
@@ -136,7 +135,7 @@ class MainContainer extends React.Component {
 
                           <div className="title overtext">Etsy</div>
 
-                          <div className="tagline overtext">Working with Etsy's API</div>
+                          <div className="tagline overtext">Etsy recreation</div>
 
                         </div>
 
@@ -243,7 +242,7 @@ class MainContainer extends React.Component {
                 <img className="pic-me" src="images/first-headshot.jpg" />
               </div>
               <div className="col l8 m7 s12">
-                <p className="about-me">{"Hello, there! My name is Dylan and I'm a front-end web developer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, but I love to learn and problem solve in new ways every single day. I'm a musician, songwriter, lover of tattoos and all things coffee."}</p>
+                <p className="about-me">{"Hello, there! My name is Dylan - I'm a front-end developer and aspiring designer currently living in beautiful Greenville, SC. I see development as a form of art - I love to build applications and websites that express who the client is, but who I am as well. My approach to development is two-fold: the usability and function of a project is just as important as how it looks and how a person can interact with it. I'm a huge proponent of JavaScript and the cutting-edge libraries that are being built around it, such as ReactJS and Backbone.js, as well as React Native to build native iOS and Android apps. I love learning and problem solving, and am growing as a developer and designer every single day. I'm a musician, songwriter, lover of tattoos and all things coffee."}</p>
 
 
               </div>
