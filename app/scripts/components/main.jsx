@@ -8,15 +8,17 @@ require('materialize-sass-origin/js/tooltip.js');
 class MainContainer extends React.Component {
   componentDidMount(){
     $('.tooltipped').tooltip({delay: 50});
+
+
   }
   render(){
     return (
       <div>
         <div className="row head">
 
-            <img className="logo" src="images/blue-logo-no-bg.png" />
+            <img className="logo" src="images/surfboard-2.png" />
             <h3 className="name">Dylan Gregory</h3>
-            <h5 className="my-title">Front-End Web Developer</h5>
+            <h5 className="my-title">Web Developer & Designer</h5>
 
 
 
@@ -251,7 +253,7 @@ class MainContainer extends React.Component {
 
             <div className="row contact-block">
               <h3 className="contact-head">
-                <img className="swallow" src="./images/swallow-logo.png" />
+                <img className="swallow" src="./images/rose-red.png" />
                 Contact me </h3>
               <div className="container">
 
@@ -267,7 +269,7 @@ class MainContainer extends React.Component {
 
                 </div>
                 <div className="big-logo col m6">
-                  <img className="right" src="./images/red-convert.png"/>
+                  <img className="right palm" src="./images/palm-tree.png"/>
                 </div>
               </div>
 

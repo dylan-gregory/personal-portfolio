@@ -13,20 +13,20 @@ class LocalSoundDetail extends React.Component {
   }
   render(){
     return (
-      <div className="Moxy-detail">
+      <div className="Sound-detail">
         <div className="row">
           <div className="detail-title">
             <span className="name-title">Local Sound</span>
           </div>
-          <div className="container-fluid">
-          <div className="col l6 s12">
+        <div className="container-fluid">
+          <div className="sound-photos col l6 s12">
 
-            <img className="ls-detail-pic" src="images/local-sound-1.png" />
-            <img className="ls-detail-pic" src="images/local-sound-2.png" />
+            <img className="ls-detail-pic" src="images/local-sound-grabs.png" />
+
 
           </div>
 
-          <div className="col l6 s12 tools-used">
+          <div className="col l6 s12 tools-used sound-tools">
 
             <div className="proj-tools">
 

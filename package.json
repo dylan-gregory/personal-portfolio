@@ -68,6 +68,7 @@
     ]
   },
   "dependencies": {
+    "delayed-scroll-restoration-polyfill": "^0.1.1",
     "react-tap-event-plugin": "^2.0.1"
   }
 }
