@@ -14,11 +14,15 @@ class ThaiDetail extends React.Component {
   render(){
     return (
       <div className="Thai-detail">
-        <div className="row">
-          <div className="thai-detail-title">
-            <span className="name-title">Majestic Thai</span>
+        <div className="row title-row">
+          <a className="btn-floating btn-large waves-effect waves-light back-btn" onClick={() => {window.history.back()}}><i className="material-icons">arrow_back</i></a>
+            <div className="detail-title">
 
-          </div>
+              <span className="name-title">Majestic Thai</span>
+            </div>
+        </div>
+        <div className="row">
+
           <div className="container-fluid">
           <div className="col l6 s12">
 

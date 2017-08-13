@@ -813,3 +813,13 @@ body{
 .detail-tool{
   max-height: 100px;
 }
+
+.title-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.back-btn{
+  margin-top: 0;
+}
