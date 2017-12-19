@@ -18,7 +18,9 @@ class NewContainer extends React.Component {
           <div className="row">
             <div className="col l4 m6 s12">
               <div className="box1">
-                <img className="pic-me" src="images/first-headshot.jpg" />
+                <div className="logo-outer">
+                  <img className="logo-top" src="images/Gold-no-bg.png" />
+                </div>
               </div>
             </div>
             <div className="col l8 m6 s12">
