@@ -4,6 +4,7 @@ var ReactDOM = require('react-dom');
 var $ = require('jquery');
 
 var MainContainer = require('./components/main.jsx').MainContainer;
+var NewContainer = require('./components/new.jsx').NewContainer;
 var MoxyDetail = require('./components/moxy.jsx').MoxyDetail;
 var ThaiDetail = require('./components/thai.jsx').ThaiDetail;
 var GithubDetail = require('./components/github.jsx').GithubDetail
@@ -12,12 +13,18 @@ var LocalSoundDetail = require('./components/local-sound.jsx').LocalSoundDetail;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
-    '': 'home',
+    '': 'new',
     'moxy/': 'moxy',
     'thai/': 'thai',
     'github/': 'github',
     'etsy/': 'etsy',
     'local_sound/': 'local_sound'
+  },
+  new: function(){
+      ReactDOM.render(
+        React.createElement(NewContainer),
+        document.getElementById('app')
+      )
   },
   home: function(){
     ReactDOM.render(
